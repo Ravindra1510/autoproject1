@@ -1,0 +1,16 @@
+<suite name="Suite" parallel="tests">
+  <test name="Test1">
+  	<parameter name="node" value="http://192.168.43.40:4444/wd/hub"/>
+  	<parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="script.Demo1"/>
+    </classes>
+  </test> 
+  <test name="Test2">
+  	<parameter name="node" value="http://192.168.43.40:4444/wd/hub"/>
+  	<parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="script.Demo1"/>
+    </classes>
+  </test> 
+</suite> 
